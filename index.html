@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zomato</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+ <div> <h1>Restaurant Near Me</h1></div>
+ <div class="one"> <fieldset><legend><h3>Filters</h3></legend>
+  <label for="location-select">Select Location</label>
+  <br>
+  <select name="location" id="location-select">
+    <option value="">--Select Location--</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Pune">Pune</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Goa">Goa</option>
+    <option value="Hyderabad">Hyderabad</option>
+    <option value="Noida">Noida</option>
+  </select>
+  <hr>
+    <legend>Cuisins</legend>
+     <div> <input type="checkbox" id="Food type" name="North Indian" checked>
+      <label for="North Indian">North Indian</label></div>
+
+     <div> <input type="checkbox" id="Food type" name="South Indian">
+        <label for="South Indian">South Indian</label></div>
+      <div> <input type="checkbox" id="Food type" name="Chinese">
+        <label for="Chinese">Chinese</label></div>
+             <div> <input type="checkbox" id="Food type" name="Italian">
+        <label for="Italian">Italian</label></div>
+           <div> <input type="checkbox" id="Food type" name="Street Food">
+        <label for="Street Food">Street Food</label></div>
+        <hr> <legend>Cost For Two</legend>
+          
+       <div> <input type="radio" id="Less Than Rs.500" name="Cost" value="Less Than Rs.500" checked>
+        <label for="Less Than Rs.500">Less Than Rs.500</label></div>
+        <div><input type="radio" id="Rs.500 to Rs.1000" name="Cost" value="Rs.500 to Rs.1000">
+        <label for="Rs.500 to Rs.1000">Rs.500 to Rs.1000</label> </div>
+        <div> <input type="radio" id="Rs.1000 to Rs.1500" name="Cost" value="Rs.1000 to Rs.1500">
+        <label for="Rs.1000 to Rs.1500">Rs.1000 to Rs.1500</label> </div>
+      
+      
+        <div> <input type="radio" id="Rs.1500 or Rs.2000" name="Cost" value="Rs.1500 or Rs.2000">
+        <label for="Rs.1500 or Rs.2000">Rs.1500 or Rs.2000</label> </div>
+        <div> <input type="radio" id="Rs.2000 or above" name="Cost" value="Rs.2000 or above">
+        <label for="Rs.2000 or above">Rs.2000 or above</label> </div>
+  <hr>
+    <legend>Sort By</legend>
+    <div> <input type="radio" id="Most Popular" name="Sort By" value="Most Popular" checked>
+      <label for="Most Popular">Most Popular</label> </div>
+       <div> <input type="radio" id="Price low to high" name="Sort By" value="Price low to high">
+      <label for="Price low to high">Price low to high</label> </div>
+      <div>  <input type="radio" id="Price high to low" name="Sort By" value="Price high to low">
+      <label for="Price high to low">Price high to low</label> </div>
+    </fieldset>
+  </div>
+   <div class="two"><h1>The Indian Restaurant</h1><img src="images/breakfast.jpg" alt="Image Size Big">
+    <p><big>Jain Milan Road</big></p>
+    <pre><big>Dine-in   Drive Through   No Contact Delivery</big></pre>
+    <pre><b>Closes : 11:00 pm</b></pre> 
+    <hr>
+   
+    <h1>Ajay Bhojnaliya</h1>
+    <img src="images/breakfast.jpg" alt="Image Size Big">
+    
+    
+    
+    <p><big>Court Road</big></p>
+    <pre><big>Takeaway   No Contact Delivery</big></pre>
+    <pre><b>Closes : 10:00 pm</b></pre>   <hr>
+    
+  <div class="pagination" style="font-size:30px;">
+    <a href="#">&laquo;</a>
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">6</a>
+    <a href="#">7</a>
+    <a href="#">8</a>
+    <a href="#">9</a>
+    <a href="#">&raquo;</a>
+  </div></div>
+</body>
+
+</html>

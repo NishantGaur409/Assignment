@@ -1,0 +1,21 @@
+body div h1 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+body .one{margin: 10px;padding: 15px; border: 2px solid black ;color: rgb(8, 8, 8); width: 28%; 
+    display: inline-block; text height: 19px;}
+body .two{margin: 0px;padding: 0px; 
+    width: 68%; height: 0px; display: inline-block;}
+    body .two .img1{margin-top: 0px;
+    padding: 0; width: 270px; height: 160px; display: inline-block; border: 2px solid red ; border-radius: 9px;}
+    body .two .data1{margin-top: 100px; width: 58%; height: 20px; display: inline-block;}
+body .paginattion {font-size: 100px;}body .data1 h1{margin-bottom: 50px;}.
